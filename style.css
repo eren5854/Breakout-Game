@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #c300ff, #05c9fa);
+}
+
+.home{
+    width: 580px;
+    height: 800px;
+    align-items: center;
+    /* background: yellowgreen; */
+}
+
+.health-div{
+    display: flex;
+    margin-left: 10px;
+    /* background: yellowgreen; */
+    width: 96px;
+    height: 32px;
+    /* margin-right: 75px; */
+}
+
+.health-div .heart{
+    
+}
+
+.select{
+    width: 250px;
+}
+
+.text{
+    display: flex;
+    text-align: center;
+    background: rgba(26, 26, 26, 1);
+    /* padding-top: 10px; */
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.text h1{
+    color: #05c9fa;
+    width: 250px;
+    /* background: yellowgreen; */
+}
+
+.score-div{
+    display: flex;
+    margin-right: 20px;
+}
+
+.score-div h3{
+    color: #c300ff;
+    /* background: yellowgreen; */
+}
+
+.canvas {
+    background: rgba(26, 26, 26, 1);
+    border-radius: 20px;
+}
+
+.select-item{
+    display: flex;
+    position: relative;
+    width: 580;
+    height: 250px;
+    margin-top: 30px;
+    
+}
+
+.arrows{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* justify-content: space-between; */
+}
+
+.arrows .controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.controls button{
+    justify-content: space-between;
+    background: rgba(26, 26, 26, 1);
+    color: #c300ff;
+    width: 100px;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+    margin: 0 50px 0 50px;
+    border-radius: 20px;
+    /* align-items: center; */
+}
+
+.bar-select{
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    justify-content: space-between;
+    border: 4px solid rgb(26, 26, 26);
+    border-radius: 20px;
+    /* background: #fff; */
+}
+
+.bar-select h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(26, 26, 26);
+    padding-top: 10px;
+}
+
+.bar-div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bar-select .bar-div button{
+    background: transparent;
+    outline: none;
+    border: none;
+    
+    
+    transition: 0.5s;
+}
+
+.bar-select .bar-div button:hover{
+    transform: scale(1.5);
+}
+
+.ball-select{
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    justify-content: space-between;
+    border: 4px solid rgb(26, 26, 26);
+    border-radius: 20px;
+    /* background: #fff; */
+}
+
+.ball-select h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(26, 26, 26);
+    padding-top: 10px;
+}
+
+.ball-div{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ball-div button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#ball0{
+    background: #0095DD;
+}
+
+#ball1{
+    background: #c300ff;
+}
+
+#ball2{
+    background: #fff;
+}
+
+#ball3{
+    background: #ff7b00;
+}
+
+#ball4{
+    background: #ff0000;
+}
+
+#ball5{
+    background: #5eff00;
+}
